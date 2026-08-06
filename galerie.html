@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie | GEOROX Construct S.R.L.</title>
+  <meta name="description" content="Galerie foto cu lucrări de hidroizolare și construcții realizate de GEOROX Construct.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo"><span class="logo-grey">GEO</span><span class="logo-accent">ROX</span><span class="logo-grey">Construct</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="servicii.html">Servicii</a></li>
+        <li><a href="despre.html">Despre noi</a></li>
+        <li><a href="galerie.html" class="active">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Deschide meniul">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Galerie</h1>
+      <p>Exemple din lucrările noastre de hidroizolare și construcții.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid grid-3 gallery-albums">
+        <button class="album-card" type="button" data-album="acoperis-terasa">
+          <img src="img/galerie/acoperis-terasa/acoperis-terasa-1.jpeg" alt="Acoperiș terasă">
+          <span class="album-title">Acoperiș terasă</span>
+        </button>
+        <button class="album-card" type="button" data-album="acoperis-bloc">
+          <img src="img/galerie/acoperis-bloc/acoperis-bloc1.jpeg" alt="Acoperiș bloc">
+          <span class="album-title">Acoperiș bloc</span>
+        </button>
+        <button class="album-card" type="button" data-album="terasa1">
+          <img src="img/galerie/terasa1/terasa1-1.jpeg" alt="Terasă 1">
+          <span class="album-title">Terasă 1</span>
+        </button>
+        <button class="album-card" type="button" data-album="terasa2">
+          <img src="img/galerie/terasa2/terasa2-1.jpeg" alt="Terasă 2">
+          <span class="album-title">Terasă 2</span>
+        </button>
+        <button class="album-card" type="button" data-album="terasa3">
+          <img src="img/galerie/terasa3/terasa3-1.jpeg" alt="Terasă 3">
+          <span class="album-title">Terasă 3</span>
+        </button>
+        <button class="album-card" type="button" data-album="extra">
+          <img src="img/galerie/extra/extra-1.jpeg" alt="Diverse lucrări">
+          <span class="album-title">Diverse lucrări</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Închide">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Anterior">&#10094;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    <button class="lightbox-next" id="lightboxNext" aria-label="Următor">&#10095;</button>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ai un proiect în plan?</h2>
+      <p>Contactează-ne pentru o evaluare gratuită și o ofertă personalizată.</p>
+      <a href="contact.html" class="btn btn-primary">Contactează-ne</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>GEOROX Construct S.R.L.</h4>
+          <p>Soluții profesionale de hidroizolare pentru locuințe și spații comerciale.</p>
+        </div>
+        <div>
+          <h4>Navigare</h4>
+          <ul>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="servicii.html">Servicii</a></li>
+            <li><a href="despre.html">Despre noi</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Telefon: +40 753 500 300</li>
+            <li>Email: georoxconstruct@gmail.com</li>
+            <li>Constanța, România</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Urmărește-ne</h4>
+          <div class="social-links">
+            <a href="https://www.tiktok.com/@hidroizolatiiconstanta?_r=1&_t=ZN-98eueDLRYmM" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok">
+              <svg viewBox="0 0 24 24"><path d="M16.5 2c.3 1.9 1.5 3.5 3.5 4v3c-1.4 0-2.7-.4-3.8-1.2v6.2c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6c.3 0 .6 0 .9.1v3.1c-.3-.1-.6-.2-.9-.2-1.7 0-3 1.3-3 3s1.3 3 3 3 3.1-1.3 3.1-3V2h3.2z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/share/18gLSC9Pa3/?mibextid=wwXIfr" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.3-1.5 1.6-1.5H16V4.3C15.7 4.2 14.8 4 13.8 4c-2.1 0-3.6 1.3-3.6 3.7V10.5H7.7v3h2.5V21h3.3z"/></svg>
+            </a>
+            <a href="https://share.google/zqNdeVPApvcIBEr9M" target="_blank" rel="noopener" class="social-icon" aria-label="Google">
+              <svg viewBox="0 0 24 24"><path d="M21.8 12.2c0-.7-.1-1.4-.2-2H12v3.9h5.5c-.2 1.3-1 2.4-2.1 3.1v2.6h3.4c2-1.8 3-4.5 3-7.6z"/><path d="M12 22c2.7 0 5-.9 6.7-2.4l-3.4-2.6c-.9.6-2.1 1-3.3 1-2.6 0-4.8-1.7-5.6-4.1H3v2.6C4.7 19.9 8.1 22 12 22z"/><path d="M6.4 13.9c-.2-.6-.3-1.2-.3-1.9s.1-1.3.3-1.9V7.5H3c-.6 1.3-1 2.7-1 4.5s.4 3.2 1 4.5l3.4-2.6z"/><path d="M12 6c1.5 0 2.8.5 3.8 1.5l2.9-2.9C16.9 2.9 14.6 2 12 2 8.1 2 4.7 4.1 3 7.5l3.4 2.6C7.2 7.7 9.4 6 12 6z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 GEOROX Construct S.R.L. Toate drepturile rezervate.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/album-viewer.js"></script>
+</body>
+</html>
