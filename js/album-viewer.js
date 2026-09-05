@@ -19,6 +19,14 @@ const albums = {
     title: 'Terasă 3',
     photos: [1, 2, 3, 4, 5].map(n => `img/galerie/terasa3/terasa3-${n}.jpeg`),
   },
+  'acoperis-casa': {
+    title: 'Acoperiș casă',
+    photos: [
+      'img/galerie/acoperis-casa/acoperis-casa1.jpeg',
+      'img/galerie/acoperis-casa/acoperis-casa2.jpeg',
+      'img/galerie/acoperis-casa/acoperis-casa3.jpeg',
+    ],
+  },
   'extra': {
     title: 'Diverse lucrări',
     photos: Array.from({ length: 12 }, (_, i) => `img/galerie/extra/extra-${i + 1}.jpeg`),
