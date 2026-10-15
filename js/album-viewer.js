@@ -29,7 +29,7 @@ const albums = {
   },
   'extra': {
     title: 'Diverse lucrări',
-    photos: Array.from({ length: 12 }, (_, i) => `img/galerie/extra/extra-${i + 1}.jpeg`),
+    photos: Array.from({ length: 17 }, (_, i) => `img/galerie/extra/extra-${i + 1}.jpeg`),
   },
 };
 
